@@ -1,0 +1,31 @@
+April Dawn Kester
+akester@ucsc.edu
+1272036
+4-16-2014
+CMPS 182
+Lab#1
+
+Listing 1: DowntownVideoDB
+
+customer (first_name, last_name, email, address_id, create_date)
+address (address_id, address, city_id, postal_code, phone)
+film (film_id, title, description, length, rating)
+staff (first_name, last_name, address_id, active, username, password)
+
+Listing 2: CityBooksDB
+
+customers (last_name, first_name)
+books (title, author_id)
+author (id, first_name, last_name)
+employees (id, first_name, last_name)
+schedules (employee_id, schedule)
+
+Listing 3: mergedClientDB
+
+merged_customer (first_name, last_name, email, address_id, create_date)
+address (address_id, address, city_id, postal_code, phone)
+film (film_id, title, description, length, rating)
+books (title, author_id)
+author (id, first_name, last_name)
+merged_emp_staff (id, first_name, last_name, address_id, active, username, password)
+schedules (employee_id, schedule)
